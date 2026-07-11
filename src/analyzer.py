@@ -1,4 +1,3 @@
-# src/analyzer.py
 from src.models import LogEntry
 
 
