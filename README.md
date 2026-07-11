@@ -130,8 +130,7 @@ produces:
 ```text
 ========== Log Analysis Report ==========
 
-Execution Time : 0.42 seconds
-
+Execution Time : 4.8659 seconds
 Total Requests : 495044
 Invalid Lines  : 4956
 Unique IPs     : 4001
@@ -164,13 +163,14 @@ Requests Per Hour
 08:00 -> 50912
 09:00 -> 36953
 
-Suspicious Activities
+Suspicious Activities (Brute-force attempts)
 ------------------------------
-IP: 203.0.113.42 - 7 failed logins on /login
+IP: 21.67.75.144    - 7464 failed logins on /login
 
-Error Spikes
+Error Spikes (5xx errors >= 5%)
 ------------------------------
-Hour 09:00 -> 6.24%
+Hour 04:00 -> 7.16% error rate
+Hour 05:00 -> 17.61% error rate
 ```
 
 ---
